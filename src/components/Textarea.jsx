@@ -5,7 +5,6 @@ import TextError from './TextError';
 function Textarea(props) {
 
     const { label, name, ...rest } = props
-    console.log("textarea", label, name, { ...rest })
     return (
         <div className='form-control'>
             <label htmlFor={name}>{label}</label>

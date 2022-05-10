@@ -44,7 +44,6 @@ function FormikContainer() {
         console.log("Form Data", JSON.parse(JSON.stringify(values)))
         console.log(values.birthDate)
     }
-    console.log("ddd")
     return (
         <div>
             <Formik
